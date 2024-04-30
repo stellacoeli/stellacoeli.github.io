@@ -1,0 +1,249 @@
+/*  Import font from google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*  Set Imported font from google font
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+*/
+.montserrat-regular {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+/*  END *** Import font from google font */
+
+body {
+    color: #352D39;
+    background-color: #FFFCF9;
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* h1 ==> the walt Disney Company
+h2  contenuto walt Disney, Success, The Grim, Contatti
+*/
+h1, h2 {
+    color: red;
+}
+h1 {
+    text-decoration: underline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+
+}
+h2 {
+    font-size: 32px;
+    margin: 40px 0px 0px 0px;   
+}
+/* tratto i link al passaggio del mouse o cliccati
+MAI USATI ==> RED
+MOUSE SOPRA ==> AQUA
+CLICK MOUSE ==> GREEN
+VISITATO ==> GRAY
+
+*/
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    text-decoration: underline;
+    color: aqua;   
+}
+a:active {
+    color: green; 
+}
+a:visited {
+    color: gray;
+}
+/*a:focus {
+}*/
+/* FINE *** tratto i link al passaggio del mouse o cliccati*/
+
+div#navbar {
+    color: #FFFCF9;
+    background-color: #6d435a;
+    margin: 0px;
+    width: 100%;
+    padding: 20px 20px;
+    position: fixed;
+    top: 0px;
+    left:0px;
+    box-shadow: 10px 10px 10px black;
+}
+
+/* Sezione con immagine castello + scritta Disney */
+div#castello {
+/*
+  padding: 300px 0px 0px 0px;  
+
+  */
+  width: 100%;
+  margin: 70px 0px 0px 0px;
+  background-color: bisque;
+  background-image: url(images/castello.jpg );
+  background-size: cover;  
+  background-position: center; 
+  background-repeat:no-repeat;   
+}
+h2.dcastello {
+    color: white;
+
+    font-size: 110px;
+    padding: 0px 0px 350px 30px;
+    font-family: "Montserrat" ;
+}
+
+
+
+div#congenerale {
+    /*background: #6d435a; */
+    max-width: 800px;
+    margin: 40px auto 0px;
+}
+
+div#wdcompany, div#contenuto, div#lastmess {
+    padding: 25px;
+}
+
+div#cartoon {
+    /*background-image: url(images/waltdisney.jpeg );
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    border-radius: 15px;
+    */
+    color: aqua;
+}
+h2.dcartoon {
+    color: orange;
+    font-size: 72px;
+    margin: 30px 0px 0px 0px;
+}
+img.immagine-w2 {
+    width: 100%;
+    min-width: 250px;
+    border-radius: 20px;
+    float: none;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+
+
+img.immagine-w {
+    width: 50%;
+    min-width: 250px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 25px;
+}
+
+img.immagine-w:hover {
+    width: 100%;
+    border-radius: 20px;
+    float: none;
+    margin-left: 0px;
+
+}
+
+
+div#wdcompany {
+    background-color: #B1EDE8;
+    background-image: radial-gradient( orange ,red) ;
+    background-image: conic-gradient( orange ,red) ;
+    background-image: linear-gradient( to right,  blue ,red) ;
+    margin: 20px 0px 20px; /* 2 valori alto/basso dx/sx  4 valori alto/dx/basso/sx */
+    border: 2px solid #6d435a;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 0px 0px black;
+}
+img.immagine-co {
+    width: 100%;
+    min-width: 250px;
+    border-radius: 20px;
+    float: none;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+p.dwdcompany {
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+
+}
+div#wdcompany:hover {
+
+    box-shadow: 20px 20px 20px black;
+    color: white;
+}
+
+
+div#lastmess {
+    color: #FFFCF9;
+    background-color: #352d39 ;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border: 2px solid #ff6978;
+    border-radius: 20px;
+    text-align: center;   
+    box-shadow: 10px 10px 10px black; 
+}
+p.dlastmess {
+    font-style: italic;
+}
+
+
+div#saluti {
+    color: #FFFCF9;
+    background-color: #1d1b1c;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 5px 0px;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+@media screen and (max-width: 600px) {
+    div#navbar {
+        display: none;
+    }    
+}
+/* Adattamenti per smartphone*/
+
+/*
+@media screen and (max-width: 600px) {
+    body {
+        background-color: red; 
+    }
+    div#navbar {
+        display: none;
+    }
+    div#congenerale {
+        margin: 20px auto 0px;
+    }
+    div#wdcompany, div#lastmess {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    img.immagine-w {
+        width: 100%;
+        float: none;
+        margin-left: 0px;
+
+    }
+}
+
+
+
+@media screen and (min-width: 800px) {
+       body {
+           background-color: gray;
+    }
+}
+*/
