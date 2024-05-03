@@ -195,7 +195,11 @@ div#saluti {
     }    
 }
 .h4style {
-    color:#11005c
+    color:#dad3fc;
+    background-color:#11005c;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
 }
 
 
