@@ -199,6 +199,6 @@ div#saluti {
 
 @media screen and (min-width: 800px) {
        body {
-           background-color: gray;
+           background-color: rgb(255, 255, 255);
     }
 }
