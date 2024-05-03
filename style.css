@@ -188,9 +188,7 @@ div#saluti {
     font-size: 15px;
 
 }
-.prova {
-    color red;
-}
+
 @media screen and (max-width: 600px) {
     div#navbar {
         display: none;
