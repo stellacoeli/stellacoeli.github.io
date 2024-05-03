@@ -194,7 +194,9 @@ div#saluti {
         display: none;
     }    
 }
-
+.h4style {
+    color:#11005c
+}
 
 
 @media screen and (min-width: 800px) {
