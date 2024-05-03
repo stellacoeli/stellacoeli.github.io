@@ -38,7 +38,7 @@ h2 {
 a {
     font-weight: bold;
     text-decoration: none;
-    color: red;
+    color: rgb(206, 146, 255);
 }
 a:hover {
     text-decoration: underline;
@@ -54,7 +54,7 @@ a:visited {
 
 div#navbar {
     color: #FFFCF9;
-    background-color: #6d435a;
+    background-color: #11005c;
     margin: 0px;
     width: 100%;
     padding: 20px 20px;
