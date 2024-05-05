@@ -72,8 +72,21 @@ background-color: #28286d;
 font-size: 50px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 font-family: "Indie Flower", cursive;
- 
 }
+ 
+h5 {
+    font-weight: bold;
+    font-family: "Indie Flower", cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+ 
+.new-w3-attribute {
+    background-color: #28286d;
+    color: white;
+    border-radius: 20px;
+}
+ 
 .link-attribute {
     font-family: "Indie Flower", cursive;
 }
@@ -180,6 +193,11 @@ img.immagine-w2 {
     margin-bottom: 15px;
 }
  
+.change-w3-title {
+    font-family: "Indie Flower", cursive;
+    color: white;    
+    background-color: #28286d;
+}
  
  
 img.immagine-w {
@@ -266,12 +284,12 @@ div#saluti {
     background-color: #1d1d5a;
     text-align: center;
 }
+
 .link-color:hover {
     color: #c90cc9;
 }
-.prova {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
+
+.immagine-imggraf {
+    image-resolution: 50% ;
+
 }
-ha il menu contestuale
