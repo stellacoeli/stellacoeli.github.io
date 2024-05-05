@@ -283,11 +283,11 @@ div#saluti {
  
 }
  
-@media screen and (max-width: 600px) {
+/*media screen and (max-width: 600px) {
     div#navbar {
         display: none;
     }    
-}
+}*/
 .card-p {
     color: #dd1282;
     background-color: #1d1d5a;
@@ -305,3 +305,8 @@ div#saluti {
 
 }
 
+.imm-graf {
+    width: 50%;
+    min-width: 250px;
+    border-radius: 20px;
+}
