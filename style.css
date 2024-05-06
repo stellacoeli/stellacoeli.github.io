@@ -261,13 +261,13 @@ div#saluti {
  
 
 .card-p {
-    color: #dd1282;
+    color: #9ce3ff;
     background-color: #1d1d5a;
     text-align: center;
 }
 
 .link-color:hover {
-    color: #c90cc9;
+    color: hsl(180, 91%, 87%);
 }
 
 .immagine-imggraf {
