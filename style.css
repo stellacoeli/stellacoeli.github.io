@@ -1,4 +1,4 @@
-/*  Import font from google font */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
  
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
@@ -7,10 +7,7 @@
  
 @import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Sedan+SC&display=swap');
 
-/*  Set Imported font from google font
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900
-*/
+
 .montserrat-regular {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -18,8 +15,7 @@
     font-style: normal;
   }
  
-  // <uniquifier>: Use a unique and descriptive class name
-  // <weight>: Use a value from 200 to 800
+
  
 .assistant-imported {
     font-family: "Assistant", sans-serif;
@@ -28,8 +24,7 @@
     font-style: normal;
   }
  
-  // <uniquifier>: Use a unique and descriptive class name
-  // <weight>: Use a value from 200 to 800
+
   .indie-flower-regular {
     font-family: "Indie Flower", cursive;
     font-weight: 400;
@@ -44,7 +39,7 @@
   
  
  
-/*  END *** Import font from google font */
+
  
 body {
     color: #352D39;
@@ -54,9 +49,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  
-/* h1 ==> the walt Disney Company
-h2  contenuto walt Disney, Success, The Grim, Contatti
-*/
+
 h1, h2 {
     color: red;
 }
@@ -72,7 +65,7 @@ h2 {
     font-size: 32px;
     margin: 40px 0px 0px 0px;  
 }
-/* add for page not home */
+
 h4 {
 color: white;  
 text-align: center;
@@ -99,13 +92,8 @@ h5 {
     font-family: "Indie Flower", cursive;
 }
  
-/* tratto i link al passaggio del mouse o cliccati
-MAI USATI ==> RED
-MOUSE SOPRA ==> AQUA
-CLICK MOUSE ==> GREEN
-VISITATO ==> GRAY
  
-*/
+
 a {
     font-weight: bold;
     text-decoration: none;
@@ -121,10 +109,7 @@ a:active {
 a:visited {
     color: white;
 }
-/*a:focus {
-}*/
-/* FINE *** tratto i link al passaggio del mouse o cliccati*/
- 
+
 div#navbar {
     color: #FFFCF9;
     background-color: #1c1b64;
@@ -137,12 +122,9 @@ div#navbar {
     box-shadow: 10px 10px 10px black;
 }
  
-/* Sezione con immagine castello + scritta Disney */
+
 div#castello {
-/*
-  padding: 300px 0px 0px 0px;  
- 
-  */
+
   width: 100%;
   margin: 70px 0px 0px 0px;
   background-color: bisque;
@@ -167,7 +149,7 @@ div#contenuto {
  
 
 div#congenerale {
-    /*background: #6d435a; */
+
     max-width: 800px;
     margin: 40px auto 0px;
 }
@@ -177,12 +159,6 @@ div#wdcompany, div#contenuto, div#lastmess {
 }
  
 div#cartoon {
-    /*background-image: url(images/waltdisney.jpeg );
-    background-size: cover;
-    background-position: center;
-    background-repeat:no-repeat;
-    border-radius: 15px;
-    */
     color: grey;
     font-family: Verdana, sans-serif;
     font-size: medium;
@@ -231,7 +207,7 @@ div#wdcompany {
     background-image: radial-gradient( orange ,red) ;
     background-image: conic-gradient( orange ,red) ;
     background-image: linear-gradient( to right,  blue ,red) ;
-    margin: 20px 0px 20px; /* 2 valori alto/basso dx/sx  4 valori alto/dx/basso/sx */
+    margin: 20px 0px 20px; 
     border: 2px solid #6d435a;
     border-bottom-right-radius: 20px;
     box-shadow: 0px 0px 0px black;
@@ -283,11 +259,7 @@ div#saluti {
  
 }
  
-/*media screen and (max-width: 600px) {
-    div#navbar {
-        display: none;
-    }    
-}*/
+
 .card-p {
     color: #dd1282;
     background-color: #1d1d5a;
